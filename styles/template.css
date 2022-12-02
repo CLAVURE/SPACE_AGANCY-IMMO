@@ -4,13 +4,32 @@ body{
     cursor: url('../img/rocket-takeoff.svg'), pointer;
 }
 
+@font-face {
+    font-family: 'Nasalization';
+    src: url(font/nasaliza.ttf);
+}
+
+@font-face {
+    font-family: 'SpaceL';
+    src: url(font/Spaceline.otf) format("onlinetruetype");
+}
+
+.one{
+    font-family: SpaceL;
+}
+
+.two{
+    font-family: Nasalization; 
+}
+
+
+
 canvas{ 
     display: block; 
     /* vertical-align: bottom;  */
 } 
 
 /* ---- particles.js container ---- */ 
-
 #particles-js{ 
     position:absolute; 
     width: 100%; height: 100%; 
@@ -19,3 +38,4 @@ canvas{
     background-size: 20%; 
     background-position: 50% 50%; 
 } 
+
