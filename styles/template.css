@@ -11,7 +11,7 @@ body{
 
 @font-face {
     font-family: 'SpaceL';
-    src: url(font/Spaceline.otf) format("onlinetruetype");
+    src: url(font/Spaceline.otf);
 }
 
 .one{
