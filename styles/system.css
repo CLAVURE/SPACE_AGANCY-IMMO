@@ -1,0 +1,70 @@
+html, body {
+    overflow-x: hidden;
+}
+
+body{
+    overflow: hidden;
+    background: radial-gradient(#13092A, #000);
+    position: relative;
+    min-height: 100%;
+}
+section{
+    min-height:100vh;
+    transform: scale(0.6);
+}
+
+*{
+    transform-style: preserve-3d;
+}
+
+section>div{
+    height: var(--distance);
+    width: var(--distance);
+    position: absolute;
+    top:50%;
+    left:50%;
+    border: 2.5px solid rgb(240, 7, 7);
+    border-radius: 50%;
+    animation: tourne var(--temps) infinite linear -304s;
+}
+
+.soleil{
+    border: none;
+    background: yellow;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px #ff3333 inset
+}
+
+section>div>div{
+    height: var(--taille);
+    width: var(--taille);
+    background: var(--couleur);
+    border-radius: 50%;
+    margin: auto;
+    /* transform: translateY(-50%) rotateX(-60deg); */
+    box-shadow: 0 0 15px #424242 inset;
+    animation: tournePlanetes var(--temps) infinite linear -304s;
+}
+
+@keyframes tourne{
+    0%{transform: translate(-50%, -50%) rotateX(60deg) rotate(0deg)}
+    100%{transform: translate(-50%, -50%) rotateX(60deg) rotate(360deg)}
+}
+
+@keyframes tournePlanetes {
+    0% {
+        transform: translateY(-50%) rotate(0) rotateX(313deg);
+    }
+    
+    100% {
+        transform: translateY(-50%) rotate(-360deg) rotateX(313deg);
+    }
+}
+
+
+
+    /* Test perspective */
+    /* Crée deux animation Une planette et l'autre pour quel tourne autour du soleile*/
+    /* Ne pas oublier le "transform-style: preserve-3d;" partour donc * et "/" */
+    /* RotateX("deg") poir les metre en face et donne une impression de 3D dans les animations*/
+    /* Mettres des Box-shadow pour emplifier l'impréssion de sphère. */
