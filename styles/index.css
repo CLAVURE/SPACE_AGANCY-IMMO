@@ -19,6 +19,7 @@ p{
     bottom: 35px;
     text-decoration: none;
     color: white;
+    text-decoration: none;
 }
 
 .B1{
@@ -33,4 +34,14 @@ p{
     font-size: 13pt;
     text-align: center;
     border-radius: 20px;
+}
+
+.B1>a{
+    color: white;
+    text-decoration: none;
+}
+
+.B1>a:visited{
+    color: white;
+    text-decoration: none;
 }
