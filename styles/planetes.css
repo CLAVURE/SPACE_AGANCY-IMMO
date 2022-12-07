@@ -1,0 +1,26 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.ListePlanetes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Description{
+    text-align: left;
+    padding: 0 25px;
+    margin: 50px 0 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Dégradé{
+    position: absolute;
+    z-index: -9;
+    opacity: 85%;
+    min-height: 60%;
+    width: 100%;
+    bottom: 0;
+}

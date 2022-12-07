@@ -52,7 +52,7 @@ section>div>div{
     100%{transform: translate(-50%, -50%) rotateX(60deg) rotate(360deg)}
 }
 
-@keyframes tournePlanetes {
+@keyframes tournePlanetes { /*  55 */
     0% {
         transform: translateY(-50%) rotate(0) rotateX(313deg);
     }
