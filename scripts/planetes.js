@@ -66,12 +66,10 @@ let system = {
         "img":"charon.svg"}
     }}
     
-    
-//Au clic sur les flèches aux côtés de la planète affichées
 document.querySelector('.Suivant').addEventListener('click', slider);
 document.querySelector('.Précedent').addEventListener('click', slider);
 
-//Fonction permettant de changer de planète (change l'image, le titre, le dégradé et la description)
+//Fonction permettant de changer de planète dans la liste
 function slider(){
     //Pour pouvoir obtenir le nom de la planète suivante et précédente
     var keys = Object.keys(system.Planètes);
@@ -83,7 +81,7 @@ function slider(){
     document.querySelector(".Import").innerHTML= `
     <h1>` +system["Planètes"][this.id].nom +`</h1>`;
 
-    //Je change l'affichage de la planète (nom, description, image et attribut alt, degradé)
+    //Je change l'affichage de la planète (image, attribut alt de l'image, description, degradé)
     document.querySelector('.imagePlanete').src = `../img/planetes/` + system["Planètes"][this.id].img + ``;
     document.querySelector('.imagePlanete').alt = system["Planètes"][this.id].nom;
     document.querySelector('.Description').innerHTML = system["Planètes"][this.id].description;
