@@ -10,6 +10,9 @@ h1{
 }
 
 .Description{
+    display: flex;
+    align-items: center;
+    height:25%;
     text-align: left;
     padding: 0 25px;
     margin: 50px 0 0 0;
@@ -23,4 +26,34 @@ h1{
     min-height: 60%;
     width: 100%;
     bottom: 0;
+}
+
+
+.Import{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Import>div{
+    background-color: #7F0611;
+    width: max-content;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    font-size: 18pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.DécouvrirPlans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.DécouvrirPlans>div>a{
+    border-style: solid;
+    padding: 8px 20px;
 }

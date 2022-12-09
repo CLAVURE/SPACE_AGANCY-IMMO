@@ -11,7 +11,7 @@ let system = {
         "img":"venus.png"},
     "GLIESE":{
         "nom":"GLIESE 667CC",
-        "description":"Gliese 667 Cc3,1,4 (également connue sous la dénomination GJ 667Cc ou HR 6426Cc) est une planète extrasolaire (exoplanète) confirmée de type super-Terre, en orbite autour de l'étoile Gliese 667 C, une naine rouge qui est elle-même un membre du système de trois étoiles Gliese 667 situé à une distance d'environ 22,7 années-lumière, dans la constellation zodiacale du Scorpion.",
+        "description":"Gliese 667 Cc3,1,4 (également connue sous la dénomination GJ 667Cc ou HR 6426Cc) est une planète extrasolaire (exoplanète) confirmée de type super-Terre, en orbite autour de l'étoile Gliese 667 C.",
         "couleur1":"#05081f",
         "couleur2":"#273436",
         "couleur3":"#755137",
@@ -35,7 +35,7 @@ let system = {
         "img":"mars.png"},
     "IO":{
         "nom":"IO",
-        "description":"Io, ou Jupiter I, est un satellite naturel de Jupiter. Plus spécifiquement, il s'agit de la troisième plus grande lune galiléenne et celle ayant l'orbite la plus proche de la planète Jupiter, possédant un demi-grand axe de 421 800 kilomètres et une période de révolution d'environ 42 heures. Par ailleurs, elle est la quatrième plus grande lune du Système solaire, la plus dense d'entre elles et l'objet astronomique connu contenant la plus faible quantité d'eau.",
+        "description":"Io, ou Jupiter I, est un satellite naturel de Jupiter. Plus spécifiquement, il s'agit de la troisième plus grande lune galiléenne et celle ayant l'orbite la plus proche de la planète Jupiter, possédant un demi-grand axe de 421 800 kilomètres et une période de révolution d'environ 42 heures.",
         "couleur1":"#05081f",
         "couleur2":"#9B8B50",
         "couleur3":"#9B8B50",
@@ -47,10 +47,7 @@ let system = {
             est le plus grand satellite naturel de Saturne. 
             D'un diamètre 6 % plus grand que celui de Mercure, 
             Titan est par la taille au deuxième rang des satellites du Système solaire, 
-            après Ganymède, le plus gros satellite de Jupiter. 
-            Il s’agit du seul satellite connu à posséder une atmosphère dense. 
-            Découvert par l’astronome néerlandais Christian Huygens en 1655, 
-            Titan est la première lune observée autour de Saturne.`,
+            après Ganymède, le plus gros satellite de Jupiter.`,
         "couleur1":"#05081f",
         "couleur2":"#374C45", //55
         "couleur3":"#547469",
@@ -79,7 +76,9 @@ function slider(){
     
     //J'insère le nom de la planète voulue dans le h1
     document.querySelector(".Import").innerHTML= `
-    <h1>` +system["Planètes"][this.id].nom +`</h1>`;
+        <div>
+           <div>` +system["Planètes"][this.id].nom +`</div> 
+        </div>`;
 
     //Je change l'affichage de la planète (image, attribut alt de l'image, description, degradé)
     document.querySelector('.imagePlanete').src = `../img/planetes/` + system["Planètes"][this.id].img + ``;
