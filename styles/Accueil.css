@@ -1,0 +1,23 @@
+
+.SAi>p:nth-child(1){
+    font-size: 30pt;
+}
+
+
+.SAi>p:nth-child(2){
+    font-size: 25pt;
+}
+
+
+
+.B1{
+    /* width: max-content; */
+    flex-direction: column;
+    width: fit-content;
+    padding: 7px 23px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+}
