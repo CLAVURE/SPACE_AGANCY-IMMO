@@ -1,4 +1,8 @@
 
+.SAi{
+    height: auto;
+}
+
 .SAi>p:nth-child(1){
     font-size: 30pt;
 }
@@ -10,6 +14,17 @@
 
 
 
+.FlexBt{
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.FlexBt>div:nth-child(1){
+    margin-right: 20px;
+}
+
 .B1{
     /* width: max-content; */
     flex-direction: column;
@@ -17,7 +32,18 @@
     padding: 7px 23px;
     margin-bottom: 20px;
     border: 1px solid white;
-    font-size: 20pt;
+    font-size: 15pt;
     font-weight: bold;
     text-align: center;
+}
+
+.Sytem{
+    margin-left: 30px;
+}
+
+.Contact{
+    position: absolute;
+    top: 0;
+    left: 60%;
+    background-color: #;
 }
