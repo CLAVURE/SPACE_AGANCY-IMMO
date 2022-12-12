@@ -13,6 +13,10 @@
     line-height: 100%;
 }
 
+.SAi>p>br{
+    display: none;
+}
+
 .SAi>p:nth-child(1){
     font-weight: bolder;
     font-size: 7vw;
@@ -32,6 +36,9 @@
 }
 
 
+.contact{
+    display: none;
+}
 
 .B1{
     /* width: max-content; */
@@ -53,4 +60,9 @@
 
 .Contact{
     display: none; /* 55 */
+}
+
+
+.reseaux{
+    display: none;
 }

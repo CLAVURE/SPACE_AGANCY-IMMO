@@ -1,15 +1,23 @@
 body{
     padding: 0 60px;
+    position: relative;
 }
   
 .SAi{
+    margin-top: 7%;
     height: auto;
 }
 
 .SAi>p:nth-child(1){
-    font-size: 30pt;
+    
+    font-size: 45pt;
+    word-wrap: break-word;
+   
 }
 
+.SAi>p>br{
+    display: block;
+}
 
 .SAi>p:nth-child(2){
     font-size: 25pt;
@@ -44,9 +52,22 @@ body{
     margin-left: 30px;
 }
 
-.Contact{
+.reseaux{
     position: absolute;
-    top: 0;
-    left: 60%;
-    /* background-color: ; */
+    bottom: 20px;
+    left: 30px;
+}
+
+.contact{
+    font-family: Nasalization;
+    font-size: 19pt;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 0px;
+    right: 200px;
+    height: 40px;
+    padding: 15px 20px;
+    border: 1px solid #F5B400;
+    background-color: #F5B400;
 }

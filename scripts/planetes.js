@@ -52,7 +52,7 @@ let system = {
         "couleur2":"#374C45", 
         "couleur3":"#547469",
         "couleur4":"#99D2A1",
-        "img":"titan.svg"}, //55
+        "img":"titan.svg"}, 
     "CHARON":{
         "nom":"CHARON",
         "description":"Charon, officiellement (134340) Pluton I Charon (désignation internationale : (134340) Pluto I (Charon)5, prononcé : /ka.ʁɔ̃/) est le plus grand satellite naturel de Pluton et un objet massif de la ceinture de Kuiper.",
@@ -81,6 +81,7 @@ function slider(){
         </div>`;
 
     //Je change l'affichage de la planète (image, attribut alt de l'image, description, degradé)
+    document.querySelector('.DécouvrirPlans>div>a').href = "plans.html?planete='" + system["Planètes"][this.id].nom + "'";
     document.querySelector('.imagePlanete').src = `../img/planetes/` + system["Planètes"][this.id].img + ``;
     document.querySelector('.imagePlanete').alt = system["Planètes"][this.id].nom;
     document.querySelector('.Description').innerHTML = system["Planètes"][this.id].description;
