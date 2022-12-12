@@ -1,4 +1,7 @@
-
+body{
+    padding: 0 60px;
+}
+  
 .SAi{
     height: auto;
 }
@@ -45,5 +48,5 @@
     position: absolute;
     top: 0;
     left: 60%;
-    background-color: #;
+    /* background-color: ; */
 }

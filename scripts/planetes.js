@@ -49,10 +49,10 @@ let system = {
             Titan est par la taille au deuxième rang des satellites du Système solaire, 
             après Ganymède, le plus gros satellite de Jupiter.`,
         "couleur1":"#05081f",
-        "couleur2":"#374C45", //55
+        "couleur2":"#374C45", 
         "couleur3":"#547469",
         "couleur4":"#99D2A1",
-        "img":"titan.svg"},
+        "img":"titan.svg"}, //55
     "CHARON":{
         "nom":"CHARON",
         "description":"Charon, officiellement (134340) Pluton I Charon (désignation internationale : (134340) Pluto I (Charon)5, prononcé : /ka.ʁɔ̃/) est le plus grand satellite naturel de Pluton et un objet massif de la ceinture de Kuiper.",
