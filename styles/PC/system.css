@@ -1,4 +1,31 @@
 section{
-  
+    transition: 0.8s;
     transform: scale(1.2);
+}
+
+section>div>div>a{
+    display: block;
+    position: fixed;
+    top: -24px;
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+section>div>.Zoom{
+    transition: 0.4s;
+    transform: scale(5);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 400px;
+    /* animation: tournePlanetes 0s; */
+}
+
+.Flexy{
+    display: none;
 }

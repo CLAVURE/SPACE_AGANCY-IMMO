@@ -46,6 +46,10 @@ section>div>div{
     animation: tournePlanetes var(--temps) infinite linear -304s;
 }
 
+section>div>div>a{
+    display: none;
+}
+
 @keyframes tourne{
     0%{transform: translate(-50%, -50%) rotateX(60deg) rotate(0deg)}
     100%{transform: translate(-50%, -50%) rotateX(60deg) rotate(360deg)}

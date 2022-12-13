@@ -337,11 +337,38 @@ let mdr = {
         "planete":"VENUS",
         "img":"6.png"}
     }
-    
+
+    var scope={};
+    let ii = 1;
+
     for(let i=0 ; i<Object.keys(mdr).length; i++){
-        if(eval('mdr.Bien' + eval(i+1) + '.planete') == 'VENUS'){
-            console.log(i+1, eval('mdr.Bien' + eval(i+1)) );
+        if(eval('mdr.Bien' + eval(i+1) + '.planete') == document.location.href.split('=')[1]){
+            scope['habitat' + ii] = eval('mdr.Bien' + eval(i+1));
+
+            console.log('habitat', ii, ':',scope['habitat' + ii]);
+            // console.log(i+1, eval('mdr.Bien' + eval(i+1)) );
+
+            ii++;
         }
+        // console.log(Object.keys(scope).length);
     };
 
+
+    for(let m=0; m<Object.keys(scope).length; m++){
+        for(let n=0; n<2; n++){
+            // console.log('.listeBiens>div:nth-child(' + (m+1) + ')>div:nth-child(' + (n+1) + ')');
+            console.log(document.querySelector('.listeBiens>div:nth-child(' + (m+1) + ')>div:nth-child(' + (n+1) + ')'));
+
+            document.querySelector('.listeBiens>div:nth-child(' + (m+1) + ')>div:nth-child(' + (n+1) + ')').style = "background-image:url('../img/Plans/" + scope.habitat1.planete + '/' + scope.habitat1.img;
+        }
+        m++
+        // console.log('.listeBiens>div:nth-child(' + (m+1) + ')>div:nth-child(1)');
+        console.log(document.querySelector('.listeBiens>div:nth-child(' + (m+1) + ')>div:nth-child(1)'));
+
+        // document.querySelector('.listeBiens>div:nth-child(' + (m+1) + ')>div:nth-child(1)').style = 'background-image:' + scope['habitat' + m+1];
+
+        
+
+    }
     
+    console.log(scope.habitat1.planete);

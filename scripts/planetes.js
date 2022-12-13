@@ -80,8 +80,8 @@ function slider(){
            <div>` +system["Planètes"][this.id].nom +`</div> 
         </div>`;
 
-    //Je change l'affichage de la planète (image, attribut alt de l'image, description, degradé)
-    document.querySelector('.DécouvrirPlans>div>a').href = "plans.html?planete='" + system["Planètes"][this.id].nom + "'";
+    //Je change l'affichage de la planète (href du a, image, attribut alt de l'image, description, degradé)
+    document.querySelector('.DécouvrirPlans>div>a').href = "plans.html?planete=" + system["Planètes"][this.id].nom;
     document.querySelector('.imagePlanete').src = `../img/planetes/` + system["Planètes"][this.id].img + ``;
     document.querySelector('.imagePlanete').alt = system["Planètes"][this.id].nom;
     document.querySelector('.Description').innerHTML = system["Planètes"][this.id].description;
