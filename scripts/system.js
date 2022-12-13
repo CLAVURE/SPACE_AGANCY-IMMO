@@ -10,7 +10,8 @@ document.querySelectorAll("section>div>div>a").forEach(e=>{
         console.log(this);
         console.log(this.parentElement);
         this.parentElement.classList.toggle("Zoom");
-        document.querySelector("section>div").style = "animation: tourne  linear -304s;"
+        this.parentElement.parentElement.parentElement.classList.toggle("Pause");
+        // document.querySelector("section>div").style = "animation: tourne  linear -304s;"
     };
 })
 

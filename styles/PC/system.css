@@ -26,6 +26,10 @@ section>div>.Zoom{
     /* animation: tournePlanetes 0s; */
 }
 
+.Pause *{
+    animation-play-state: paused;
+}
+
 .Flexy{
     display: none;
 }
