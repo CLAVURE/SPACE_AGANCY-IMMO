@@ -365,7 +365,7 @@ let mdr = {
         // console.log('.listeBiens>div:nth-child(' + (m+1) + ')>div:nth-child(1)');
         console.log(document.querySelector('.listeBiens>div:nth-child(' + (m+1) + ')>div:nth-child(1)'));
 
-        // document.querySelector('.listeBiens>div:nth-child(' + (m+1) + ')>div:nth-child(1)').style = 'background-image:' + scope['habitat' + m+1];
+        document.querySelector('.listeBiens>div:nth-child(' + (m+1) + ')>div').style = "background-image:url('../img/Plans/" + eval('scope.habitat' + m+1 + ".planete") + "/" + eval('scope.habitat' + m+1 + ".img");
 
         
 
