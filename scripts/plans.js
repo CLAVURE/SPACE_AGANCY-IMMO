@@ -359,13 +359,14 @@ let mdr = {
             // console.log('.listeBiens>div:nth-child(' + (m+1) + ')>div:nth-child(' + (n+1) + ')');
             console.log(document.querySelector('.listeBiens>div:nth-child(' + (m+1) + ')>div:nth-child(' + (n+1) + ')'));
 
-            document.querySelector('.listeBiens>div:nth-child(' + (m+1) + ')>div:nth-child(' + (n+1) + ')').style = "background-image:url('../img/Plans/" + scope.habitat1.planete + '/' + scope.habitat1.img;
+            document.querySelector('.listeBiens>div:nth-child(' + (m+1) + ')>div:nth-child(' + (n+1) + ')').style.backgroundImage = "url('../img/Plans/" + scope.habitat1.planete + '/dome.png' 
         }
+        // + scope.habitat1.img;
         m++
         // console.log('.listeBiens>div:nth-child(' + (m+1) + ')>div:nth-child(1)');
         console.log(document.querySelector('.listeBiens>div:nth-child(' + (m+1) + ')>div:nth-child(1)'));
 
-        document.querySelector('.listeBiens>div:nth-child(' + (m+1) + ')>div').style = "background-image:url('../img/Plans/" + eval('scope.habitat' + m+1 + ".planete") + "/" + eval('scope.habitat' + m+1 + ".img");
+        document.querySelector('.listeBiens>div:nth-child(' + (m+1) + ')>div').style.backgroundImage = "url('../img/Plans/" + scope.habitat1.planete + '/' + scope.habitat1.img;
 
         
 

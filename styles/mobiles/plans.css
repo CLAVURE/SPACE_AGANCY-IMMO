@@ -22,4 +22,5 @@ h2{
     padding: 10px;
     transform: rotate(45deg);
     margin: 15px 75px;
+    background-image: linear-gradient(red, blue);
 }
