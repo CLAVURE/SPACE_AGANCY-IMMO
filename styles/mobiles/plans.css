@@ -17,10 +17,17 @@ h2{
 .listeBiens>div>div{
     border-style: solid;
     border-color: transparent;
-    height : 25px;
-    width: 25px;
-    padding: 10px;
+    height: 45px;
+    width: 45px;
     transform: rotate(45deg);
     margin: 15px 75px;
     background-image: linear-gradient(red, blue);
+    /* display: flex; */
+}
+
+
+.dim>img{
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    width: 150%;
+    transform: rotate(-45deg);
 }
