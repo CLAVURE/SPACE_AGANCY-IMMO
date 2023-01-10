@@ -10,7 +10,7 @@ let system = {
         "couleur4":"#F6EDE7",
         "img":"venus.png"},
     "GLIESE":{
-        "nom":"GLIESE 667CC",
+        "nom":"GLIESE",
         "description":"Gliese 667 Cc3,1,4 (également connue sous la dénomination GJ 667Cc ou HR 6426Cc) est une planète extrasolaire (exoplanète) confirmée de type super-Terre, en orbite autour de l'étoile Gliese 667 C.",
         "couleur1":"#05081f",
         "couleur2":"#273436",
@@ -65,6 +65,40 @@ let system = {
     
 document.querySelector('.Suivant').addEventListener('click', slider);
 document.querySelector('.Précedent').addEventListener('click', slider);
+
+document.querySelectorAll("#system>div").forEach(e=>{
+    e.addEventListener("click",sliderPC);
+
+});
+
+//***********/
+// Version PC
+//***********/
+//Fonction permettant de changer de planète dans la liste
+function sliderPC(){
+
+    //Pour obtenir le champ en fonction de la planete ou on à cliquer
+   document.querySelector(".Change").classList.toggle('Change2');
+    var name = this.className;
+    console.log(this.className);
+    document.querySelector('.Import>div').innerText= system["Planètes"][name].nom ;
+    document.querySelector('.imagePlanete').src = `../img/planetes/` + system["Planètes"][name].img + ``;
+    document.querySelector('.imagePlanete').alt = system["Planètes"][name].nom;
+    document.querySelector('.Description').innerHTML = system["Planètes"][name].description;
+    document.querySelector('.Dégradé').style = "background-image:linear-gradient(" + system["Planètes"][name].couleur1 + ", "+ system["Planètes"][name].couleur2 +", "+ system["Planètes"][name].couleur3 +", "+ system["Planètes"][name].couleur4 +");";
+
+}
+
+
+
+
+
+
+
+
+//*****************/
+//Version téléphone
+//*****************/
 
 //Fonction permettant de changer de planète dans la liste
 function slider(){

@@ -81,7 +81,9 @@ section>div>div>a{
     text-align: center;
 }
 
-
+.Change{
+    display: none;
+}
 .B2>a{
     color: white;
     text-decoration: none;
@@ -91,9 +93,3 @@ section>div>div>a{
     color: white;
     text-decoration: none;
 }
-
-    /* Test perspective */
-    /* Crée deux animation Une planette et l'autre pour quel tourne autour du soleile*/
-    /* Ne pas oublier le "transform-style: preserve-3d;" partour donc * et "/" */
-    /* RotateX("deg") poir les metre en face et donne une impression de 3D dans les animations*/
-    /* Mettres des Box-shadow pour emplifier l'impréssion de sphère. */

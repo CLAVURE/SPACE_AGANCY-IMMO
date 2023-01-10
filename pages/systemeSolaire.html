@@ -7,6 +7,7 @@
     <title>Système Solaire</title> 
     <link rel="stylesheet" href="../styles/mobiles/template.css">
     <link rel="stylesheet" href="../styles/mobiles/system.css">
+    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="../styles/PC/planetes.css">
     <link rel="stylesheet" media="screen and (min-width: 1000px)"  href="../styles/PC/system.css">
 
 </head>
@@ -36,7 +37,7 @@
             <div><a href="../index.html">Accueil</a></div>
             <div><a href="../pages/systemeSolaire.html">Système solaire</a></div>
             <div><a href="../pages/planetes.html">Les planètes</a></div>
-            <div><a href="../pages/plans.html">Les plans</a></div>
+            <div><a href="../pages/plans.html?planete=LUNE">Les plans</a></div>
             <div><a>Contact</a></div>
         </div>
         <div class="MentionsL"><a>Mentions légales</a></div>
@@ -46,52 +47,52 @@
     <div id="particles-js"></div> 
     <!-- Partie systeme solaire -->
     
-    <section>
-        <div class=" soleil"  style="--distance: 80px"><a href="https://jeu.video/forum/"></a></div>
+    <section id="system">
+        <div class="soleil"  style="--distance: 80px"></div>
          
-        <div class="venus" style="--distance: 150px; --temps: 7.5s;">
+        <div class="VENUS" style="--distance: 150px; --temps: 7.5s;">
             
             <div class="P3D" style="--taille: 15px; --couleur: #05C">
                <a href="#VENUS">Vénus</a>
             </div> 
         </div>
 
-        <div class="Gliese" style="--distance: 200px; --temps: 8.8s">
+        <div class="GLIESE" style="--distance: 200px; --temps: 8.8s">
             
             <div class="P3D" style="--taille: 20px; --couleur: #99C">
                 <a href="#GLIESE">GLIESE</a>
             </div>
         </div>
 
-        <div class="Lune"style="--distance: 250px; --temps: 12s">
+        <div class="LUNE"style="--distance: 250px; --temps: 12s">
             
             <div class="P3D" style="--taille: 15px; --couleur: #09D">
                 <a href="#LUNE">Lune</a>
             </div>
         </div>
 
-        <div class="Mars" style="--distance: 300px; --temps: 24s">
+        <div class="MARS" id="IO" style="--distance: 300px; --temps: 24s">
             
             <div class="P3D"style="--taille: 40px; --couleur: #E9C">
                 <a href="#MARS">Mars</a>
             </div>
         </div>
 
-        <div class="saturne" style="--distance: 450px; --temps: 144s">
+        <div class="IO" style="--distance: 450px; --temps: 144s">
             
-            <div class="P3D" style="--taille: 35px; --couleur: #34C">
+            <div class="P3D" id="IO" style="--taille: 35px; --couleur: #34C">
                 <a href="#IO">IO</a>
             </div>
         </div>
 
-        <div class="Uranus" style="--distance: 500px; --temps: 348s">
+        <div class="TITAN" style="--distance: 500px; --temps: 348s">
             
             <div class="P3D" style="--taille: 20px; --couleur: #19C">
                 <a href="#TITAN">Titan</a>
             </div>
         </div>
 
-        <div class="Neptune" style="--distance: 650px; --temps: 1008s">
+        <div class="CHARON" style="--distance: 650px; --temps: 1008s">
             
             <div class="P3D" style="--taille: 10px; --couleur: #09C">
                 <a href="#CHARON">Charon</a>
@@ -102,10 +103,39 @@
     <div class="Flexy">
         <div class="B2"><a href="planetes.html">DÉCOUVRIR LES PLANÈTES</a> </div>
     </div>
+
+    <div class="Change">
+        <div class="Dégradé" style="background-image:linear-gradient(45deg,#05081f, #121113, #737076, #BAAFBD);">
+        <div class="Import">
+               <div>LUNE</div> 
+        </div>
+
+        <div class="flexPlanetes">
+            <div class="ListePlanetes">
+                <div>
+                   <img src="../img/planetes/lune.svg" alt="LUNE" class="imagePlanete" width="100%"> 
+                </div>
+                
+                <div><img class="Précedent" id='GLIESE' src="../img/fleche-gauche.svg"><img class="Suivant" id="MARS" src="../img/fleche-droite.svg"></div> 
+            </div>
+    
+            <div>
+                 <p class="Description">La Lune est l'unique satellite naturel de la Terre.Elle fait partie des objets de l'Univers explorés par l'Homme. Elle est visible depuis la Terre, car elle est éclairée par le Soleil. La Lune a quatre phases : nouvelle lune (pas de lune visible), premier quartier, pleine lune et dernier quartier. </p>
+            
+                <div class="DécouvrirPlans">
+                    <div>
+                        <a href="plans.html?planete=LUNE">DÉCOUVRIR LES PLANS DISPONIBLES</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
         
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
     <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
     <script src="../scripts/template.js"></script>
     <script src="../scripts/system.js"></script>
+    <script src="../scripts/planetes.js"></script>
 </body>
 </html>

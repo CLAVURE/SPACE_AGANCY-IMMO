@@ -1,3 +1,7 @@
+body, html{
+    overflow: hidden;
+}
+
 h2{
     display: flex;
     justify-content: center;
@@ -8,6 +12,8 @@ h2{
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
+    bottom: 0;
+    opacity: 100%;
 }
 
 .listeBiens>div{
@@ -30,4 +36,76 @@ h2{
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     width: 150%;
     transform: rotate(-45deg);
+}
+
+p{
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    justify-content: center;
+}
+
+svg{
+    align-items: center;
+}
+
+
+
+.Bien{
+    opacity: 0;
+    margin: 10px 50px;
+}
+
+.Bien>div{
+    display: flex;
+    justify-content: center;
+}
+
+.Bien>div:nth-child(1)>img{
+    margin-left: 50px;
+}
+
+.imageBien{
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.typeBien{
+    font-size: 14pt;
+    margin: 10px 0 0 10px;
+    font-weight: 300;
+}
+
+.descriptionBien{
+    font-size: 9pt;
+    margin-top: 25px;
+    font-weight: 400;
+}
+
+.Bien>div:nth-child(4){
+    margin-top: 25px;
+    font-size: 16pt;;
+    gap: 100px;
+    
+}
+
+.nousContacter{
+    border-style: solid;
+    border-color: white;
+    padding: 15px 20px;
+    font-weight: 300;
+    font-size: 16pt;
+}
+
+.displayNone{
+    animation: disparait 0.6s;
+}
+
+.displayBlock{
+    animation: disparait 0.6s reverse;
+}
+
+@keyframes disparait{
+    from{opacity: 100%;}
+    to{opacity: 0;}
 }
