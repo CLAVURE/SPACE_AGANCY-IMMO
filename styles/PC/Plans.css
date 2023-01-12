@@ -118,3 +118,17 @@ svg{
     from{opacity: 100%;}
     to{opacity: 0;}
 }
+
+
+.SVGup{
+    width: 450px;
+    height: 400px;
+}
+
+.SVGup>path:hover{
+    scale: 1.2;
+}
+
+#Bien21:hover{
+    width: 700px;
+}
