@@ -59,10 +59,19 @@
 }
 
 .Contact{
-    display: none; /* 55 */
+    display: none;
 }
-
 
 .reseaux{
     display: none;
+}
+
+.contact>a{
+    text-decoration: none;
+    color:white
+}
+
+.contact>a:visited{
+    text-decoration: none;
+    color:white
 }

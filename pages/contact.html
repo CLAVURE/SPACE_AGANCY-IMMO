@@ -7,6 +7,8 @@
     <link rel="icon" href="img/logo blanc.svg" type="image/svg"/>
     <title>Contact</title> <link rel="stylesheet" href="../styles/mobiles/template.css"> 
     <link rel="stylesheet" href="../styles/mobiles/contact.css">
+    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="../styles/PC/contact.css">
+    <link rel="stylesheet" media="screen and (min-width: 1000px)"  href="../styles/PC/template.css">
 </head>
 <body>
     <header>
@@ -45,27 +47,38 @@
 
     <!-- Page -->
     <form action="">
+    <div>
         <div>
             <label>Nom :</label>
-            <input type="text" placeholder="Entrez votre nom">
-            <div></div>
+            <div>
+                <input type="text" placeholder="Entrez votre nom">
+                <div style="margin-top: 2px; width: 200px; height: 1px; background-color: white;"></div>
+            </div>
         </div>
         <div>
             <label>Prénom :</label>
-            <input type="text" placeholder="Entrez votre prénom">
-            <div></div>
+            <div>
+                <input type="text" placeholder="Entrez votre prénom">
+                <div style="margin-top: 2px; width: 200px; height: 1px; background-color:  white;"></div>
+            </div>
         </div>
         <div>
             <label>Email :</label>
-            <input type="text" placeholder="Entrez votre adresse email">
-            <div></div>
+            <div>
+                <input type="text" placeholder="Entrez votre adresse email">
+                <div style="margin-top: 2px; width: 265px; height: 1px; background-color: white;"></div>
+            </div>
         </div>
         <div>
             <label>Objet :</label>
-            <input type="text" placeholder="Objet du mail">
-            <div></div>
+            <div>
+                <input type="text" placeholder="Objet du mail">
+                <div style="margin-top: 2px; width: 200px; height: 1px; background-color:  white;"></div>
+            </div>
         </div>
+    </div>
         <p>(Scrollez vers le bas pour continuer)</p>
+    <div>
         <div>
             <label>Votre mail :</label>
         </div>
@@ -73,6 +86,7 @@
         <div class="envoyerMail">
             <div class="ENVOYER">ENVOYER</div>
         </div>
+    </div>
     </form>
 
     <div class="confirmation">Votre message à été correctement pas envoyé !!</div>

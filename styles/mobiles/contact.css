@@ -1,32 +1,31 @@
-form{
+form>div{
     display: flex;
     flex-direction: column;
     gap: 20px;
     margin: 0 15px 15px 15px;
 }
 
-form>div{
+form>div>div{
     display: flex;
     flex-direction: column;
 }
 
-form>div>label{
+form>div>div>label{
     font-size: 20pt;
     margin: 10px 0;
 }
 
-form>div>input{
+form>div>div>div>input{
     background: none;
     border-style: none;
     color: white;
     font-size: 16pt;
 }
-
-form>div>div{
+form>div>div>div>div{
     height: 0;
     border-width: 0.5px;
     background-color: white;
-    border-style: solid;
+    /* border-style: solid; */
     border-color: white;
     margin: 10px 0;
 }

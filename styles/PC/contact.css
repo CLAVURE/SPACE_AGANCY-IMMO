@@ -1,0 +1,41 @@
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+form>p{
+    display: none;
+}
+
+form>div>div{
+    display: flex;
+    flex-direction: row;
+}
+
+
+form>div:nth-child(1){
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+form>div:nth-child(1)>div{
+    align-items: center;
+    padding: 0 30px;
+    gap: 20px;
+}
+
+textarea{
+    height: 238px;
+    width: 40vw;
+}
+
+.confirmation{
+    left: 40%;
+    right: 40%;
+    top: 40%;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
