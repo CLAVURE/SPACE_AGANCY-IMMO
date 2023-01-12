@@ -45,13 +45,15 @@ particlesJS(
     //    function up(){
     //     this.
     //    }
-    document.querySelector('.Change>header>div').addEventListener('click', menu);
+   
     document.querySelector('header>div').addEventListener('click', menu);
+   
     document.querySelector('.Fermer').addEventListener('click', menu)
 
         function menu(){
             document.querySelector('nav').classList.toggle('apparait');
         }
-
+        document.querySelector('.Change>header>div').addEventListener('click', menu);
+        document.querySelector('.Fermer').addEventListener('click', menu)
         
   
