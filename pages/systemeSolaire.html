@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Système Solaire</title> 
+    
     <link rel="stylesheet" href="../styles/mobiles/template.css">
     <link rel="stylesheet" href="../styles/mobiles/system.css">
     <link rel="stylesheet" media="screen and (min-width: 1000px)" href="../styles/PC/planetes.css">
     <link rel="stylesheet" media="screen and (min-width: 1000px)"  href="../styles/PC/system.css">
+    <link rel="stylesheet" media="screen and (min-width: 1000px)"  href="../styles/PC/template.css">
 
 </head>
 <body>
@@ -72,7 +74,6 @@
         </div>
 
         <div class="MARS" id="IO" style="--distance: 300px; --temps: 24s">
-            
             <div class="P3D"style="--taille: 40px; --couleur: #E9C">
                 <a href="#MARS">Mars</a>
             </div>
@@ -118,7 +119,7 @@
             </div>
         </header>
 
-        <div class="Dégradé" style="background-image:linear-gradient(45deg,#05081f, #121113, #737076, #BAAFBD);">
+        
     
 
         <div class="flexPlanetes">    
@@ -126,11 +127,14 @@
                <div>LUNE</div> 
             </div>
             <div class="ListePlanetes">
-                <div>
+                <div class="Planetesize">
                    <img src="../img/planetes/lune.svg" alt="LUNE" class="imagePlanete" width="100%"> 
                 </div>
                 
-                <div><img class="Précedent" id='GLIESE' src="../img/fleche-gauche.svg"><img class="Suivant" id="MARS" src="../img/fleche-droite.svg"></div> 
+                <div class="Switcher">
+                    <img class="Précedent" id='GLIESE' src="../img/fleche-gauche.svg">
+                    <img class="Suivant" id="MARS" src="../img/fleche-droite.svg">
+                </div> 
                 
               
             </div>
@@ -144,8 +148,19 @@
                     </div>
                 </div>
             </div>
+            
+           
+        </div> 
+        
+        
+        <div class="Back">
+            <div class="SS">Revenir sur le system solaire</div> 
+           <img src="../img/arrow-bar-left.svg" alt="">
+           
         </div>
-        <img src="../img/arrow-bar-left.svg" alt="">
+        
+        <div class="Dégradé" style="background-image:linear-gradient(45deg,#05081f, #121113, #737076, #BAAFBD);">
+       
 
 
        

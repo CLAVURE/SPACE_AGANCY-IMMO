@@ -166,3 +166,8 @@ function slider(){
     document.querySelector('.Précedent').id = previousPlanetName;
 }
 
+document.querySelector(".SS").addEventListener("click",change)
+
+function change(){
+    document.querySelector(".Change").classList.toggle('Change2');
+}

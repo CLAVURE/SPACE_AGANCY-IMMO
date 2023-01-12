@@ -26,6 +26,8 @@ h1{
     opacity: 85%;
     top: 0;
     bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 
@@ -67,15 +69,28 @@ h1{
 
 .flexPlanetes{
     width: 1550px;
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-left: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
    
 }
 
-.ListePlanetes>div{
+.Planetesize{
     margin-left: 100px;
     margin-right: 100px;
     width: 300px;
+}
+
+.Précedent{
+    width: 70px;
+}
+
+.Suivant{
+    width: 70px;
+}
+
+.Switcher{
+    margin-left: 175px;
 }
