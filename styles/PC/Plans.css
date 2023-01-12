@@ -1,0 +1,120 @@
+body, html{
+    overflow: hidden;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.listeBiens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    bottom: 0;
+    opacity: 100%;
+}
+
+.listeBiens>div{
+    display: flex;
+}
+
+.listeBiens>div>div{
+    border-style: solid;
+    border-color: transparent;
+    height: 45px;
+    width: 45px;
+    transform: rotate(45deg);
+    margin: 15px 75px;
+    background-image: linear-gradient(red, blue);
+    /* display: flex; */
+}
+
+p{
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    justify-content: center;
+}
+
+svg{
+    align-items: center;
+}
+
+.Bien{
+    opacity: 0;
+    margin: 0 50px 20px 50px;
+}
+
+.Bien>div, .Bien>a{
+    display: flex;
+    justify-content: center;
+}
+
+.Bien>div:nth-child(1)>img{
+    margin-left: auto;
+}
+
+.imageici{
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    width: 150px;
+    height: 150px;
+}
+
+.imageBien{
+    width:100%;
+}
+
+.typeBien{
+    font-size: 14pt;
+    margin: 10px 0 0 35px;
+    font-weight: 300;
+}
+
+.descriptionBien{
+    font-size: 9pt;
+    margin-top: 25px;
+    font-weight: 400;
+}
+
+.Bien>div:nth-child(4){
+    margin-top: 25px;
+    font-size: 16pt;;
+    gap: 100px;
+    
+}
+
+.prixBien{
+    white-space: nowrap;
+}
+
+.nousContacter{
+    margin-top: 35px;
+    border-style: solid;
+    border-color: white;
+    padding: 15px 20px;
+    font-weight: 300;
+    font-size: 16pt;
+    color:white;
+    text-decoration: none;
+}
+
+.nousContacter:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.displayNone{
+    animation: disparait 0.6s;
+}
+
+.displayBlock{
+    animation: disparait 0.6s reverse;
+}
+
+@keyframes disparait{
+    from{opacity: 100%;}
+    to{opacity: 0;}
+}
