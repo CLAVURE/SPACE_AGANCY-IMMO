@@ -31,12 +31,16 @@ h2{
     /* display: flex; */
 }
 
-p{
+.cliquez{
     display: flex;
     position: absolute;
     bottom: 25px;
     width: 100%;
     justify-content: center;
+}
+
+.plansDe{
+    display: none;
 }
 
 svg{
@@ -53,7 +57,7 @@ svg{
     justify-content: center;
 }
 
-.Bien>div:nth-child(1)>img{
+.fermerBien{
     margin-left: auto;
 }
 

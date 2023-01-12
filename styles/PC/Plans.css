@@ -31,8 +31,8 @@ h2{
     /* display: flex; */
 }
 
-p{
-    display: flex;
+.cliquez{
+    display: none;
     position: absolute;
     bottom: 25px;
     width: 100%;
@@ -46,21 +46,31 @@ svg{
 .Bien{
     opacity: 0;
     margin: 0 50px 20px 50px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: #6E6B74;
 }
 
-.Bien>div, .Bien>a{
+.Bien>div:nth-child(1){
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.fermerBien{
+    margin: 12px 12px 12px auto;
+}
+
+.nomBien{
     display: flex;
     justify-content: center;
-}
-
-.Bien>div:nth-child(1)>img{
-    margin-left: auto;
+    font-size: 32pt;
+    margin: -50px auto 0 auto;
+    text-align: left;
 }
 
 .imageici{
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    width: 150px;
-    height: 150px;
+    display: none;
 }
 
 .imageBien{
@@ -71,6 +81,7 @@ svg{
     font-size: 14pt;
     margin: 10px 0 0 35px;
     font-weight: 300;
+    
 }
 
 .descriptionBien{
@@ -131,4 +142,17 @@ svg{
 
 #Bien21:hover{
     width: 700px;
+}
+
+.plansDe{
+    display: block;
+    width: 300px;
+    margin: auto 0;
+    text-align: left;
+}
+
+.listeFlex{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24pt;
 }
