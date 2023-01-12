@@ -42,14 +42,20 @@ section>div>.Zoom{
 .Change{
     display: block;
     position: absolute;
+    width: 100%;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    /* transform: translateX(+100%); */
+    transform: translateX(+100%);
     transition: 0.5s;
 }
 
 .Change2{
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     transform: translateX(0%);
 }

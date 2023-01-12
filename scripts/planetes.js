@@ -85,7 +85,7 @@ function sliderPC(){
     document.querySelector('.imagePlanete').src = `../img/planetes/` + system["Planètes"][name].img + ``;
     document.querySelector('.imagePlanete').alt = system["Planètes"][name].nom;
     document.querySelector('.Description').innerHTML = system["Planètes"][name].description;
-    document.querySelector('.Dégradé').style = "background-image:linear-gradient(" + system["Planètes"][name].couleur1 + ", "+ system["Planètes"][name].couleur2 +", "+ system["Planètes"][name].couleur3 +", "+ system["Planètes"][name].couleur4 +");";
+    document.querySelector('.Dégradé').style = "background-image:linear-gradient( 45deg," + system["Planètes"][name].couleur1 + ", "+ system["Planètes"][name].couleur2 +", "+ system["Planètes"][name].couleur3 +", "+ system["Planètes"][name].couleur4 +");";
 
 }
 
@@ -99,6 +99,39 @@ function sliderPC(){
 //*****************/
 //Version téléphone
 //*****************/
+
+//Fonction permettant de changer de planète dans la liste
+function sliderPC2(){
+    //Pour pouvoir obtenir le nom de la planète suivante et précédente
+    var keys = Object.keys(system.Planètes);
+    var index = keys.indexOf(this.id); //this.id récupère le nom de la planète voulue
+    var nextPlanetName = keys[index+1];
+    var previousPlanetName = keys[index-1];
+    
+    //J'insère le nom de la planète voulue dans le h1
+    document.querySelector(".Import").innerHTML= `
+        <div>
+           <div>` +system["Planètes"][this.id].nom +`</div> 
+        </div>`;
+
+    //Je change l'affichage de la planète (href du a, image, attribut alt de l'image, description, degradé)
+    document.querySelector('.DécouvrirPlans>div>a').href = "plans.html?planete=" + system["Planètes"][this.id].nom;
+    document.querySelector('.imagePlanete').src = `../img/planetes/` + system["Planètes"][this.id].img + ``;
+    document.querySelector('.imagePlanete').alt = system["Planètes"][this.id].nom;
+    document.querySelector('.Description').innerHTML = system["Planètes"][this.id].description;
+    document.querySelector('.Dégradé').style = "background-image:linear-gradient(45deg," + system["Planètes"][this.id].couleur1 + ", "+ system["Planètes"][this.id].couleur2 +", "+ system["Planètes"][this.id].couleur3 +", "+ system["Planètes"][this.id].couleur4 +");";
+
+    //if else permettant de revenir au début de la liste une fois arrivé à la fin (pour que ce soit une boucle)
+    if(this.id=='CHARON'){
+        nextPlanetName='VENUS';
+    } else if(this.id=='VENUS'){
+        previousPlanetName='CHARON';
+    }
+
+    //Je change les id des flèches pour qu'elles correspondent au nom de la planète suivante et précédente
+    document.querySelector('.Suivant').id = nextPlanetName;
+    document.querySelector('.Précedent').id = previousPlanetName;
+}
 
 //Fonction permettant de changer de planète dans la liste
 function slider(){

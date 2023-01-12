@@ -345,7 +345,7 @@ let mdr = {
 
     for(let i=0 ; i<Object.keys(mdr).length; i++){
         if(eval('mdr.Bien' + eval(i+1) + '.planete') == document.location.href.split('=')[1]){
-            scope[ii] = i+1;
+            scope[ii] = 'Bien' + (i+1);
             ii++;
         }
     };
@@ -364,22 +364,64 @@ let mdr = {
 
     function plan(){
         numPlan = this.id;
+
+        document.querySelector('.nomBien').innerHTML = eval('mdr.' + numPlan).nom;
+
+        document.querySelector('.imageBien').src = '../img/Plans/' + eval('mdr.' + numPlan).planete + '/' + eval('mdr.' + numPlan).img;
+
+        document.querySelector('.typeBien').innerHTML = eval('mdr.' + numPlan).type;
+
+        document.querySelector('.descriptionBien').innerHTML = eval('mdr.' + numPlan).description;
+
+        document.querySelector('.tailleBien').innerHTML = eval('mdr.' + numPlan).taille + 'm²';
+        
+        document.querySelector('.prixBien').innerHTML = eval('mdr.' + numPlan).prix + ' millions €';
+
+
+
+        console.log(eval('mdr.' + numPlan).planete);
+
         document.querySelector('.nomPlanete').classList.add('displayNone');
         document.querySelector('.listeBiens').classList.add('displayNone');
-        document.querySelector('p').classList.add
+        document.querySelector('p').classList.add('displayNone');document.querySelector('.Bien').classList.add('displayBlock');
+        setTimeout(listeDisparait, 550);
+        function listeDisparait(){
+            document.querySelector('.nomPlanete').style.display = 'none';
+            document.querySelector('.listeBiens').style.display = 'none';
+            document.querySelector('p').style.display = 'none';
         
-        ('displayNone');document.querySelector('.Bien').classList.add('displayBlock');
-        setTimeout(Charles, 550);
+            document.querySelector('.Bien').style.opacity = '100%';
+
+            document.querySelector('.nomPlanete').classList.remove('displayNone');
+            document.querySelector('.listeBiens').classList.remove('displayNone');
+            document.querySelector('p').classList.remove('displayNone');
+            document.querySelector('.Bien').classList.remove('displayBlock');
+
+        }
     }
 
-    function Charles(){
-        document.querySelector('.nomPlanete').style.display = 'none';
-        document.querySelector('.listeBiens').style.display = 'none';
-        document.querySelector('p').style.display = 'none';
+    document.querySelector('.fermerBien').addEventListener('click', fermerPlan);
 
-        
-        document.querySelector('.Bien').style.opacity = '100%';
+    function fermerPlan(){
+        document.querySelector('.nomPlanete').classList.add('displayBlock');
+        document.querySelector('.listeBiens').classList.add('displayBlock');
+        document.querySelector('p').classList.add('displayBlock');
+        document.querySelector('.Bien').classList.add('displayNone');
+        setTimeout(listeApparait, 550);
+        function listeApparait(){
+            document.querySelector('.nomPlanete').style.display = 'flex';
+            document.querySelector('.listeBiens').style.display = 'flex';
+            document.querySelector('p').style.display = 'flex';
+
+            document.querySelector('.Bien').style.opacity = '0';
+
+            document.querySelector('.nomPlanete').classList.remove('displayBlock');
+            document.querySelector('.listeBiens').classList.remove('displayBlock');
+            document.querySelector('p').classList.remove('displayBlock');
+            document.querySelector('.Bien').classList.remove('displayNone');
+        }
     }
+    
     
 
 

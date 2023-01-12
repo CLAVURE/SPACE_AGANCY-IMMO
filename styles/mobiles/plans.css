@@ -54,7 +54,7 @@ svg{
 
 .Bien{
     opacity: 0;
-    margin: 10px 50px;
+    margin: 0 50px 20px 50px;
 }
 
 .Bien>div{
@@ -66,8 +66,14 @@ svg{
     margin-left: 50px;
 }
 
-.imageBien{
+.imageici{
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    width: 150px;
+    height: 150px;
+}
+
+.imageBien{
+    width:100%;
 }
 
 .typeBien{
@@ -89,7 +95,12 @@ svg{
     
 }
 
+.prixBien{
+    white-space: nowrap;
+}
+
 .nousContacter{
+    margin-top: 35px;
     border-style: solid;
     border-color: white;
     padding: 15px 20px;
