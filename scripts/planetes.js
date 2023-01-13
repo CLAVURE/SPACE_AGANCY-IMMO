@@ -163,11 +163,11 @@ function slider(){
         previousPlanetName='CHARON';
     }
 
-    if(this.id=="MARS"){
-        document.querySelector(".Change2").style.transform ="translateX: 500px";
-    }else if(this.id=="GLIESE"){
-        document.querySelector(".Change2").style.transform ="translateX: 500px";
-    };
+    // if((this.id=="MARS")){
+    //     document.querySelector(".Change2").style.transform ="translateX: 500px";
+    // }else if(this.id=="GLIESE"){
+    //     document.querySelector(".Change2").style.transform ="translateX: 500px";
+    // };
 
     //Je change les id des flèches pour qu'elles correspondent au nom de la planète suivante et précédente
     document.querySelector('.Suivant').id = nextPlanetName;
