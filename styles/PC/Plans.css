@@ -31,26 +31,32 @@ h2{
     /* display: flex; */
 }
 
-.cliquez{
-    display: none;
-    position: absolute;
-    bottom: 25px;
-    width: 100%;
-    justify-content: center;
-}
-
 svg{
     align-items: center;
 }
 
 .Bien{
+    position: absolute;
+    top: 25%;
+    bottom: 50%;
+    left: 0;
+    right: 0;
     opacity: 0;
     margin: 0 50px 20px 50px;
     width: 40%;
     display: flex;
     flex-direction: column;
     background-color: #6E6B74;
+    padding: 20px;
+    transform: translate(-100%);
+    transition: 0.4s;
 }
+
+.Bien2{
+    transform: translate(0%);
+}
+
+
 
 .Bien>div:nth-child(1){
     display: flex;
@@ -117,7 +123,7 @@ svg{
     text-decoration: none;
 }
 
-.displayNone{
+/* .displayNone{
     animation: disparait 0.6s;
 }
 
@@ -128,20 +134,16 @@ svg{
 @keyframes disparait{
     from{opacity: 100%;}
     to{opacity: 0;}
+} */
+
+
+.SVGtel{
+    position: fixed;
+    transform: translate(-500vw);
 }
 
-
-.SVGup{
-    width: 450px;
-    height: 400px;
-}
-
-.SVGup>path:hover{
-    scale: 1.2;
-}
-
-#Bien21:hover{
-    width: 700px;
+.SVGpc{
+    display: block;
 }
 
 .plansDe{

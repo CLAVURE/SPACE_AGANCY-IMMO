@@ -120,6 +120,14 @@ svg{
     animation: disparait 0.6s reverse;
 }
 
+.SVGpc{
+    display: none;
+}
+
+.SVGtel{
+    display: block;
+} 
+
 @keyframes disparait{
     from{opacity: 100%;}
     to{opacity: 0;}
