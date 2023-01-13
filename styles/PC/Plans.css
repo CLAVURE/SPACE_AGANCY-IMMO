@@ -64,7 +64,7 @@ svg{
     display: flex;
     flex-direction: column;
     justify-content: left;
-    background-color: rgb(112,112,112,0.6);
+    background-color: rgb(112,112,112,0.7);
     opacity: 100%;
     padding: 20px;
     transform: translate(-120%);
@@ -186,4 +186,12 @@ path:hover{
     stroke: white;
     stroke-width: 5px;
     transition: 0.3s;
+}
+
+.diff{
+    position: absolute;
+    transform: rotate(270deg);
+    top: 50%;
+    bottom: 50%;
+    left: 0;
 }
