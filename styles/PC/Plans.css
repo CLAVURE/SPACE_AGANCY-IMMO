@@ -144,6 +144,8 @@ svg{
 
 .SVGpc{
     display: block;
+    height: 100%;
+    width: 120%;
 }
 
 .plansDe{

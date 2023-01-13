@@ -48,8 +48,11 @@ svg{
 }
 
 .Bien{
+    position: fixed;
+    display: none;
     opacity: 0;
     margin: 0 50px 20px 50px;
+    transform: translateY(-74%);
 }
 
 .Bien>div, .Bien>a{
@@ -131,4 +134,8 @@ svg{
 @keyframes disparait{
     from{opacity: 100%;}
     to{opacity: 0;}
+}
+
+.Bien2{
+    transform: translateY(-73%);
 }
