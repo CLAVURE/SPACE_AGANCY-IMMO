@@ -3,8 +3,12 @@ body, html{
 }
 
 h2{
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin: 0;
+}
+
+.nomPlanete{
+    text-align: center;
 }
 
 .listeBiens{
@@ -38,18 +42,20 @@ svg{
 .Bien{
     position: absolute;
     top: 25%;
-    bottom: 50%;
+    bottom: 15%;
     left: 0;
     right: 0;
-    opacity: 0;
     margin: 0 50px 20px 50px;
     width: 40%;
     display: flex;
     flex-direction: column;
-    background-color: #6E6B74;
+    justify-content: left;
+    background-color: rgb(112,112,112,0.6);
+    opacity: 100%;
     padding: 20px;
-    transform: translate(-100%);
+    transform: translate(-120%);
     transition: 0.4s;
+    
 }
 
 .Bien2{
@@ -60,18 +66,18 @@ svg{
 
 .Bien>div:nth-child(1){
     display: flex;
-    flex-direction: column-reverse;
+    justify-content: space-between;
 }
+
+
+
 
 .fermerBien{
     margin: 12px 12px 12px auto;
 }
 
 .nomBien{
-    display: flex;
-    justify-content: center;
     font-size: 32pt;
-    margin: -50px auto 0 auto;
     text-align: left;
 }
 
@@ -85,9 +91,9 @@ svg{
 
 .typeBien{
     font-size: 14pt;
-    margin: 10px 0 0 35px;
+    margin: 0;
     font-weight: 300;
-    
+    display: block;
 }
 
 .descriptionBien{
@@ -100,7 +106,10 @@ svg{
     margin-top: 25px;
     font-size: 16pt;;
     gap: 100px;
-    
+    }
+.Oppo{
+    display: flex;
+    justify-content: space-between;
 }
 
 .prixBien{
@@ -108,7 +117,7 @@ svg{
 }
 
 .nousContacter{
-    margin-top: 35px;
+    
     border-style: solid;
     border-color: white;
     padding: 15px 20px;
@@ -116,6 +125,12 @@ svg{
     font-size: 16pt;
     color:white;
     text-decoration: none;
+}
+
+.posi{
+   
+    display: flex;
+    justify-content: center;
 }
 
 .nousContacter:visited{
@@ -159,4 +174,14 @@ svg{
     display: flex;
     justify-content: space-evenly;
     font-size: 24pt;
+}
+
+path{
+    transition: 0.5s;
+}
+
+path:hover{
+    stroke: white;
+    stroke-width: 5px;
+    transition: 0.3s;
 }

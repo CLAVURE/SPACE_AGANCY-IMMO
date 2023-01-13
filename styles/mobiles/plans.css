@@ -51,15 +51,16 @@ svg{
     position: fixed;
     display: none;
     opacity: 0;
-    margin: 0 50px 20px 50px;
+    margin: -20px 50px 20px 50px;
     transform: translateY(-74%);
 }
 
-.Bien>div, .Bien>a{
+
+
+.Oppo{
     display: flex;
     justify-content: center;
 }
-
 .fermerBien{
     margin-left: auto;
 }
@@ -80,6 +81,8 @@ svg{
     font-size: 17pt;
     margin: 10px 0 0 35px;
     font-weight: 300;
+    display: flex;
+    justify-content: center;
 }
 
 .descriptionBien{
@@ -138,4 +141,16 @@ svg{
 
 .Bien2{
     transform: translateY(-73%);
+}
+
+.h2etCroix{
+    display: flex;
+}
+
+.imageEtType{
+    display: flex;
+}
+
+.posi{
+    margin-top: 50px;
 }

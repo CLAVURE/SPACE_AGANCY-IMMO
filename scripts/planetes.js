@@ -85,7 +85,7 @@ function sliderPC(){
     document.querySelector('.imagePlanete').src = `../img/planetes/` + system["Planètes"][name].img + ``;
     document.querySelector('.imagePlanete').alt = system["Planètes"][name].nom;
     document.querySelector('.Description').innerHTML = system["Planètes"][name].description;
-    document.querySelector('.Dégradé').style = "background-image:linear-gradient( 45deg," + system["Planètes"][name].couleur1 + ", "+ system["Planètes"][name].couleur2 +", "+ system["Planètes"][name].couleur3 +", "+ system["Planètes"][name].couleur4 +");";
+    document.querySelector('.Dégradé').style = "background-image:linear-gradient(" + system["Planètes"][name].couleur1 + ", "+ system["Planètes"][name].couleur2 +", "+ system["Planètes"][name].couleur3 +", "+ system["Planètes"][name].couleur4 +");";
 
 }
 

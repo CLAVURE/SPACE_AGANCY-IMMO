@@ -59,34 +59,3 @@ section>div>.Zoom{
     right: 0;
     transform: translateX(0%);
 }
-
-.Back{
-    margin-top: 60px;
-    margin-left: 20px;
-    width: 40px;
-    
-    transition: 0.4s;
-}
-
-.Back>div{
-    display: none;
-    transition: 0.2s;
-
-}
-
-.Back:hover{
-    display: flex;
-    justify-content: space-around;
-    transform: translate(30px);
-    transition: 0.4s;
-}
-
-.Back:hover>div{
-    display: block;
-}
-
-.Back>img{
-    width: 100%;
-}
-
-
