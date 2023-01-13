@@ -80,7 +80,9 @@ function sliderPC(){
     //Pour obtenir le champ en fonction de la planete ou on à cliquer
    document.querySelector(".Change").classList.toggle('Change2');
     var name = this.className;
-    console.log(this.className);
+    
+    document.querySelector('.DécouvrirPlans>div>a').href = "plans.html?planete=" + name;
+
     document.querySelector('.Import>div').innerText= system["Planètes"][name].nom ;
     document.querySelector('.imagePlanete').src = `../img/planetes/` + system["Planètes"][name].img + ``;
     document.querySelector('.imagePlanete').alt = system["Planètes"][name].nom;
@@ -160,6 +162,12 @@ function slider(){
     } else if(this.id=='VENUS'){
         previousPlanetName='CHARON';
     }
+
+    if(this.id=="MARS"){
+        document.querySelector(".Change2").style.transform ="translateX: 500px";
+    }else if(this.id=="GLIESE"){
+        document.querySelector(".Change2").style.transform ="translateX: 500px";
+    };
 
     //Je change les id des flèches pour qu'elles correspondent au nom de la planète suivante et précédente
     document.querySelector('.Suivant').id = nextPlanetName;

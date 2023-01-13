@@ -5,10 +5,20 @@ body, html{
 h2{
     display: block;
     margin: 0;
+
 }
 
 .nomPlanete{
     text-align: center;
+}
+
+.next{
+    border: 1px solid white;
+    padding: 10px;
+    width: 150px;
+    font-size: 18pt;
+    text-decoration: none;
+    margin-top: 10px;
 }
 
 .listeBiens{
@@ -18,6 +28,10 @@ h2{
     margin-top: 40px;
     bottom: 0;
     opacity: 100%;
+}
+
+.listeBiensPC{
+    margin-left: 50px
 }
 
 .listeBiens>div{
@@ -62,15 +76,10 @@ svg{
     transform: translate(0%);
 }
 
-
-
 .Bien>div:nth-child(1){
     display: flex;
     justify-content: space-between;
 }
-
-
-
 
 .fermerBien{
     margin: 12px 12px 12px auto;
@@ -127,6 +136,10 @@ svg{
     text-decoration: none;
 }
 
+.listeFlex>div{
+    margin-left: 120px;
+}
+
 .posi{
    
     display: flex;
@@ -138,20 +151,6 @@ svg{
     text-decoration: none;
 }
 
-/* .displayNone{
-    animation: disparait 0.6s;
-}
-
-.displayBlock{
-    animation: disparait 0.6s reverse;
-}
-
-@keyframes disparait{
-    from{opacity: 100%;}
-    to{opacity: 0;}
-} */
-
-
 .SVGtel{
     position: fixed;
     transform: translate(-500vw);
@@ -159,25 +158,28 @@ svg{
 
 .SVGpc{
     display: block;
-    height: 100%;
-    width: 120%;
+    height: auto;
+    width: 300px;
 }
 
 .plansDe{
     display: block;
-    width: 300px;
-    margin: auto 0;
+    width: 350px;
+    margin: auto;
     text-align: left;
 }
 
 .listeFlex{
+    margin-top: 76px;
     display: flex;
-    justify-content: space-evenly;
+    gap: 10%;
+    justify-content: left;
     font-size: 24pt;
 }
 
 path{
     transition: 0.5s;
+    cursor: url(../../img/RR.svg), pointer;
 }
 
 path:hover{

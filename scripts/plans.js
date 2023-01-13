@@ -1,7 +1,7 @@
 
 let mdr = {
     "Bien1":{
-        "nom":"Charon1",
+        "nom":"Charon's Sanctuary",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"135",
@@ -9,7 +9,7 @@ let mdr = {
         "planete":"CHARON",
         "img":"1.png"},
     "Bien2":{
-        "nom":"Charon2",
+        "nom":"Eternal Twilight",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"48",
@@ -17,7 +17,7 @@ let mdr = {
         "planete":"CHARON",
         "img":"2.png"},
     "Bien3":{
-        "nom":"Charon3",
+        "nom":"Plutonian Heights",
         "type":"Appartement",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"123",
@@ -25,7 +25,7 @@ let mdr = {
         "planete":"CHARON",
         "img":"3.png"},
     "Bien4":{
-        "nom":"Charon4",
+        "nom":"Pluto's Perch",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"725",
@@ -33,7 +33,7 @@ let mdr = {
         "planete":"CHARON",
         "img":"4.png"},
     "Bien5":{
-        "nom":"Charon5",
+        "nom":"Frosty Frontier",
         "type":"Appartement",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"888",
@@ -41,7 +41,7 @@ let mdr = {
         "planete":"CHARON",
         "img":"5.png"},
     "Bien6":{
-        "nom":"Charon6",
+        "nom":"Charon's Crest",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"682",
@@ -49,7 +49,7 @@ let mdr = {
         "planete":"CHARON",
         "img":"6.png"},
     "Bien7":{
-        "nom":"Gliese1",
+        "nom":"Gliese's Mushroom",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"459",
@@ -57,7 +57,7 @@ let mdr = {
         "planete":"GLIESE",
         "img":"1.png"},
     "Bien8":{
-        "nom":"Gliese2",
+        "nom":"667 Haven",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"845",
@@ -65,7 +65,7 @@ let mdr = {
         "planete":"GLIESE",
         "img":"2.png"},
     "Bien9":{
-        "nom":"Gliese3",
+        "nom":"Exoplanetary Explorer",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"854",
@@ -73,7 +73,7 @@ let mdr = {
         "planete":"GLIESE",
         "img":"3.png"},
     "Bien10":{
-        "nom":"Gliese4",
+        "nom":"Cubic Horizon",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"548",
@@ -81,7 +81,7 @@ let mdr = {
         "planete":"GLIESE",
         "img":"4.png"},
     "Bien11":{
-        "nom":"Gliese5",
+        "nom":"Gliese Oasis",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"851",
@@ -89,7 +89,7 @@ let mdr = {
         "planete":"GLIESE",
         "img":"5.png"},
     "Bien12":{
-        "nom":"Gliese6",
+        "nom":"Gliese's Frontier",
         "type":"Appartement",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"854",
@@ -97,7 +97,7 @@ let mdr = {
         "planete":"GLIESE",
         "img":"6.png"},
     "Bien13":{
-        "nom":"Io1",
+        "nom":"Crescent Skies",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"514",
@@ -105,7 +105,7 @@ let mdr = {
         "planete":"IO",
         "img":"1.png"},
     "Bien14":{
-        "nom":"Io2",
+        "nom":"Volcanic Vista",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"847",
@@ -113,7 +113,7 @@ let mdr = {
         "planete":"IO",
         "img":"2.png"},
     "Bien15":{
-        "nom":"Io3",
+        "nom":"Jupiter's Jewel",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"654",
@@ -121,7 +121,7 @@ let mdr = {
         "planete":"IO",
         "img":"3.png"},
     "Bien16":{
-        "nom":"Io4",
+        "nom":"Jovian Frontier",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"847",
@@ -129,7 +129,7 @@ let mdr = {
         "planete":"IO",
         "img":"4.png"},
     "Bien17":{
-        "nom":"Io5",
+        "nom":"Io's Oasis",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"651",
@@ -137,7 +137,7 @@ let mdr = {
         "planete":"IO",
         "img":"5.png"},
     "Bien18":{
-        "nom":"Io6",
+        "nom":"Endless Dawn",
         "type":"Appartement",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"987",
@@ -145,7 +145,7 @@ let mdr = {
         "planete":"IO",
         "img":"6.png"},
     "Bien19":{
-        "nom":"Lune1",
+        "nom":"Moonbeam Manor",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"135",
@@ -153,7 +153,7 @@ let mdr = {
         "planete":"LUNE",
         "img":"1.png"},
     "Bien20":{
-        "nom":"Lune2",
+        "nom":"Lunar Lodge",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"48",
@@ -161,7 +161,7 @@ let mdr = {
         "planete":"LUNE",
         "img":"2.png"},
     "Bien21":{
-        "nom":"Lune3",
+        "nom":"Celestial Haven",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"123",
@@ -169,7 +169,7 @@ let mdr = {
         "planete":"LUNE",
         "img":"3.png"},
     "Bien22":{
-        "nom":"Lune4",
+        "nom":"Lunar Horizon",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"725",
@@ -177,7 +177,7 @@ let mdr = {
         "planete":"LUNE",
         "img":"4.png"},
     "Bien23":{
-        "nom":"Lune5",
+        "nom":"Moonlit Retreat",
         "type":"Appartement",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"888",
@@ -185,7 +185,7 @@ let mdr = {
         "planete":"LUNE",
         "img":"5.png"},
     "Bien24":{
-        "nom":"Lune6",
+        "nom":"Lunar Legacy",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"682",
@@ -193,7 +193,7 @@ let mdr = {
         "planete":"LUNE",
         "img":"6.png"},
     "Bien25":{
-        "nom":"Mars1",
+        "nom":"Ares' Abode",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"459",
@@ -201,7 +201,7 @@ let mdr = {
         "planete":"MARS",
         "img":"1.png"},
     "Bien26":{
-        "nom":"Mars2",
+        "nom":"Martian Frontier",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"845",
@@ -209,7 +209,7 @@ let mdr = {
         "planete":"MARS",
         "img":"2.png"},
     "Bien27":{
-        "nom":"Mars3",
+        "nom":"Red Planet Rise",
         "type":"Appartement",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"854",
@@ -217,7 +217,7 @@ let mdr = {
         "planete":"MARS",
         "img":"3.png"},
     "Bien28":{
-        "nom":"Mars4",
+        "nom":"Red Planet Retreat",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"548",
@@ -225,7 +225,7 @@ let mdr = {
         "planete":"MARS",
         "img":"4.png"},
     "Bien29":{
-        "nom":"Mars5",
+        "nom":"Canyonside Haven",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"851",
@@ -233,7 +233,7 @@ let mdr = {
         "planete":"MARS",
         "img":"5.png"},
     "Bien30":{
-        "nom":"Mars6",
+        "nom":"Martian Oasis",
         "type":"Appartement",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"854",
@@ -241,7 +241,7 @@ let mdr = {
         "planete":"MARS",
         "img":"6.png"},
     "Bien31":{
-        "nom":"Titan1",
+        "nom":"Titanian Terrace",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"514",
@@ -249,7 +249,7 @@ let mdr = {
         "planete":"TITAN",
         "img":"1.png"},
     "Bien32":{
-        "nom":"Titan2",
+        "nom":"Aqueous Retreat",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"847",
@@ -257,7 +257,7 @@ let mdr = {
         "planete":"TITAN",
         "img":"2.png"},
     "Bien33":{
-        "nom":"Titan3",
+        "nom":"Saturnine Sanctuary",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"654",
@@ -265,7 +265,7 @@ let mdr = {
         "planete":"TITAN",
         "img":"3.png"},
     "Bien34":{
-        "nom":"Titan4",
+        "nom":"Titanic Vista",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"847",
@@ -273,7 +273,7 @@ let mdr = {
         "planete":"TITAN",
         "img":"4.png"},
     "Bien35":{
-        "nom":"Titan5",
+        "nom":"Titan's Haven",
         "type":"Appartement",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"651",
@@ -281,7 +281,7 @@ let mdr = {
         "planete":"TITAN",
         "img":"5.png"},
     "Bien36":{
-        "nom":"Titan6",
+        "nom":"Frozen Frontier",
         "type":"Appartement",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"987",
@@ -289,7 +289,7 @@ let mdr = {
         "planete":"TITAN",
         "img":"6.png"},
     "Bien37":{
-        "nom":"Venus1",
+        "nom":"Morning Star Retreat",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"135",
@@ -297,7 +297,7 @@ let mdr = {
         "planete":"VENUS",
         "img":"1.png"},
     "Bien38":{
-        "nom":"Venus2",
+        "nom":"Elysian Escape",
         "type":"Appartement",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"48",
@@ -305,7 +305,7 @@ let mdr = {
         "planete":"VENUS",
         "img":"2.png"},
     "Bien39":{
-        "nom":"Venus3",
+        "nom":"Venusian Villa",
         "type":"Appartement",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"123",
@@ -313,7 +313,7 @@ let mdr = {
         "planete":"VENUS",
         "img":"3.png"},
     "Bien40":{
-        "nom":"Venus4",
+        "nom":"Thermal Oasis",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"725",
@@ -321,7 +321,7 @@ let mdr = {
         "planete":"VENUS",
         "img":"4.png"},
     "Bien41":{
-        "nom":"Venus5",
+        "nom":"Fiery Frontier",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"888",
@@ -329,7 +329,7 @@ let mdr = {
         "planete":"VENUS",
         "img":"5.png"},
     "Bien42":{
-        "nom":"Venus6",
+        "nom":"Venusian Haven",
         "type":"Maison",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "taille":"682",
@@ -349,8 +349,6 @@ let mdr = {
             ii++;
         }
     };
-
-    console.log(scope);
 
     document.querySelector('.nomPlanete').innerHTML = document.location.href.split('=')[1];
 
@@ -470,6 +468,8 @@ let mdr = {
         e.addEventListener('click', plan);
     })
 
+    let thisPrecedent = "";
+
     function plan(){
         numPlan = this.id;
 
@@ -487,6 +487,11 @@ let mdr = {
 
         //un code t'as peur
         if(document.querySelector('.Bien').classList[1]=='Bien2'){
+            if(thisPrecedent!=""){
+                thisPrecedent.style = ""
+                this.style="stroke: white; stroke-width: 5px;";
+                thisPrecedent = this;
+            }
             return;
         }
         else{
@@ -497,16 +502,17 @@ let mdr = {
         document.querySelector('.Bien').style.display = 'block';
         document.querySelector('.Bien').classList.add('displayBlock');
         document.querySelector(".Bien").classList.add("Bien2");
-        document.querySelector('.listeBiensPC').style.transform = 'translateX(150%)';
+        document.querySelector('.listeBiensPC').style.transform = 'translateX(30vw)';
         document.querySelector('.listeBiensPC').style.transition = '0.4s';
         document.querySelector('.listeBiens').style.transform = 'translateX(150%)';
         document.querySelector('.listeBiens').style.transform = 'translate(-100vw)';
         document.querySelector('.listeBiens').style.transition = '0.4s';
         document.querySelector('.plansDe').style.transition = '0.4s';
         document.querySelector('.plansDe').classList.add('displayNone');
-        document.querySelector('.plansDe').style.transform = 'translate(100%)';
+        document.querySelector('.plansDe').style.transform = 'translate(150%)';
+
         this.style="stroke: white; stroke-width: 5px;";
-        
+        thisPrecedent = this;
         
         setTimeout(listeDisparait, 550);
         function listeDisparait(){
@@ -540,6 +546,10 @@ let mdr = {
         document.querySelector('.plansDe').classList.add('displayBlock');
         document.querySelector('.listeBiens').style.transform = 'translate(0)';
         document.querySelector('.plansDe').style.transform = 'translate(0)';
+
+        thisPrecedent.style="";
+        thisPrecedent="";
+
         setTimeout(listeApparait, 550);
         function listeApparait(){
             document.querySelector('.nomPlanete').style.opacity = '100%';

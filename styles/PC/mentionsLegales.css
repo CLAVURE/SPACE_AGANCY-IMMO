@@ -1,0 +1,26 @@
+main{
+    padding: 8px 150px;
+}
+
+main>h2, h3{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    text-decoration: underline;
+}
+
+main>h2{
+    font-size: 24pt;
+    justify-content: center;
+}
+
+main>h3{
+    font-size: 20pt;
+    margin-top: 50px;
+}
+
+main>p{
+    font-weight: 300;
+    font-size: 14pt;
+    margin: 3px;
+}

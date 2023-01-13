@@ -1,10 +1,10 @@
 /* ---- reset ---- */ 
 html, body {
-    overflow-x: hidden;
     height: 100%;
 }
 
 body{
+    overflow: hidden;
     margin: 0;
     cursor: url('../../img/rocket-takeoff.svg'), pointer;
     color: white;
@@ -55,13 +55,18 @@ header{
 
 header>div{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: row;
     font-family: Spaceline;
+    cursor: url(../../img/RR.svg), pointer;
 }
 
 header>h1{
     font-size: 25pt;
+}
+
+a:hover{
+    cursor: url(../../img/RR.svg), pointer;
 }
 
 /* --------------- MENU ---------------- */
@@ -73,7 +78,7 @@ nav{
     top: 0;
     left: 0;
     transform: translateX(100%);
-    position: absolute;
+    position: fixed;
     transition: 0.4s;
     z-index: 10;
 }
@@ -138,6 +143,7 @@ nav{
 
 
 .Back{
+    display: block;
     margin-top: 60px;
     margin-left: 20px;
     width: 40px;
