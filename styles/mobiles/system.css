@@ -4,6 +4,7 @@ html, body {
 }
 
 body{
+    overflow: hidden;
     background: radial-gradient(#13092A, #000);
     position: relative;
    
